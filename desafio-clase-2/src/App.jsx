@@ -2,13 +2,16 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import NavBar from './Components/NavBar/NavBar'
-import Card from './Components/Card/Card'
+import ListaProductos from './Components/ListaProductos/Lista.Productos'
+
 
 function App() {
   return (
     <>
-      <NavBar/>
-      <Card title='Remera' talle='M' precio={300} />    
+      <NavBar/> 
+      <ListaProductos>
+        <p>Productos</p>
+      </ListaProductos>
     </>
   )
 }

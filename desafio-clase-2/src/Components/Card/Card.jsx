@@ -1,11 +1,12 @@
 export default Card
+import './Card.css'
 
 function Card({title, talle, precio}){
     return(
         <div className="card">
             <h2>{title}</h2>
-            <p>{talle}</p>
-            <p>{precio}</p>
+            <p>Talle: {talle}</p>
+            <p>${precio}</p>
         </div>
     )
 }
