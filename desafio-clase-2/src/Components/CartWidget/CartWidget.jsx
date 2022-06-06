@@ -1,9 +1,9 @@
-import './CartWidget.css'
+import carrito from '../Assets/Carrito.png'
 
-function CartWidget() {
+function CartWidget(){
     return (
         <div className="carrito">
-            <img src="Carrito.png"/>
+            <img src={carrito}/>
         </div>
     )
   }
