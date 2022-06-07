@@ -1,4 +1,5 @@
 export default Card
+import Contador from '../ItemCount/ItemCount'
 import './Card.css'
 
 function Card({title, talle, precio}){
@@ -7,6 +8,7 @@ function Card({title, talle, precio}){
             <h2>{title}</h2>
             <p>Talle: {talle}</p>
             <p>${precio}</p>
+            <Contador stock={5} initial={1}/>
         </div>
     )
 }

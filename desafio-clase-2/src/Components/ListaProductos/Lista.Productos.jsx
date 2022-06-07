@@ -11,9 +11,6 @@ const ListaProductos = ({children}) => {
                 <Card title='Zapatillas' talle='XL' precio={3000} />
                 <Card title='Medias' talle='S' precio={5000} />
                 <Card title='Remera' talle='M' precio={300} />
-                <Card title='Pantalon' talle='L' precio={900} />
-                <Card title='Zapatillas' talle='XL' precio={3000} />
-                <Card title='Medias' talle='S' precio={5000} />
             </div>
         </div>
     )

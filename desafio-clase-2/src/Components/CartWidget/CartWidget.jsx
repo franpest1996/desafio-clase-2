@@ -1,4 +1,5 @@
 import carrito from '../Assets/Carrito.png'
+import '../CartWidget/CartWidget.css'
 
 function CartWidget(){
     return (
