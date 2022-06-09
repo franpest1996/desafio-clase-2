@@ -1,4 +1,5 @@
 import Card from "../Card/Card"
+import ItemList from "../ItemList/ItemList";
 import './ListaProductos.css'
 
 const ListaProductos = ({children}) => {
@@ -11,6 +12,9 @@ const ListaProductos = ({children}) => {
                 <Card title='Zapatillas' talle='XL' precio={3000} />
                 <Card title='Medias' talle='S' precio={5000} />
                 <Card title='Remera' talle='M' precio={300} />
+            </div>
+            <div className="listaProductos">
+                <ItemList/>
             </div>
         </div>
     )

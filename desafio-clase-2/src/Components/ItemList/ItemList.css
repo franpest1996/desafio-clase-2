@@ -1,0 +1,20 @@
+.prod{
+    width: 200px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+  }
+
+.prod h2, p{
+    text-align: center;
+}
+
+.prodd{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid black;
+}

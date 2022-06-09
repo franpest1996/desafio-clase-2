@@ -4,6 +4,7 @@ import './App.css'
 import NavBar from './Components/NavBar/NavBar'
 import ListaProductos from './Components/ListaProductos/Lista.Productos'
 import Contador from './Components/ItemCount/ItemCount'
+import ItemList from './Components/ItemList/ItemList'
 
 
 
