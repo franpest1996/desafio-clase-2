@@ -19,7 +19,7 @@ function Contador({stock, initial, onAdd}) {
     }
 
     function agregar() {
-        console.log('Se agregaron ' + count + ' artículos al carrito')
+        alert('Se agregaron ' + count + ' artículos al carrito')
     } 
 
     //<p>Fecha: {date}</p>

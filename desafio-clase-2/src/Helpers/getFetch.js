@@ -47,3 +47,31 @@ export const getFetch =()=>{
         
     }) 
 }
+
+let producto = 
+    {Id:'1',
+     Producto:'Remera',
+     Talle:'S',
+     Precio:'3000',
+     Stock:10,
+    }
+
+ export const getFetchDetails =()=>{
+     return new Promise( (resolve, reject)=>{
+         setTimeout(()=>{
+             resolve(producto)
+         },2000)
+     }) 
+ }
+
+//  export const getFetchDetails =(id)=>{
+//       return new Promise( (resolve, reject)=>{
+//           setTimeout(()=>{
+//               if (id) {
+//                 resolve(productos.find(producto => producto.Id === id))
+//               }else{
+//                   resolve(productos)
+//               }  
+//           },2000)
+//       }) 
+//   }
