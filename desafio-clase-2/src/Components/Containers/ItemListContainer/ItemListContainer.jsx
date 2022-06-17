@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import { getFetch } from "../../../Helpers/getFetch"
-import Contador from "../../ItemCount/ItemCount"
 import ItemList from "../../ItemList.jsx/ItemList"
 import './ItemListContainer.css'
 
